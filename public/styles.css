@@ -1,0 +1,133 @@
+body{
+    font-family: 'Nunito';
+    background: #FFF0F5;
+}
+
+h2{ 
+    font-size: 18px;
+    padding: 10px 20px;
+    color: #E75480;
+    text-align: center;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+#panel-bienvenida{
+    padding: 20% 20%;
+}
+
+#usuario{
+    color: #C2185B;
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid #F8BBD0;
+}
+
+#persona{
+    border: 1px solid #F8BBD0;
+}
+
+#app-chat{
+    max-width: 600px;
+    margin: 30px auto;
+    border: 1px solid #F8BBD0;
+    box-shadow: 1px 3px 5px rgba(231, 84, 128, 0.05);
+    border-radius: 2px;
+}
+
+#ventana-mensajes{
+    height: 400px;
+    overflow: auto;
+    background: #F8BBD0;
+    border: 1px solid #E75480;
+}
+
+#output p{
+    padding: 14px 0px;
+    margin: 0 20px;
+    border-bottom: 1px solid #F8BBD0;
+    color: #4A4A4A;
+}
+
+#escribiendo-mensaje p{
+    color: #E75480;
+    padding: 14px 0px;
+    margin: 0 20px;
+}
+
+#output strong{
+    color: #E75480;
+}
+
+label{
+    box-sizing: border-box;
+    display: block;
+    padding: 10px 20px;
+}
+
+input{
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background: #F8BBD0;
+    border: 0;
+    display: block;
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #F8BBD0;
+    font-family: Nunito;
+    font-size: 16px;
+}
+input:focus {outline: 0;}
+
+button{
+    background: #E75480;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    padding: 12px 0;
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid #C2185B;
+    border-radius: 4px;
+}
+
+button:hover{
+    background: #C2185B;
+    color: #F8BBD0;
+}
+
+.nube{
+    background-color: #E75480;
+    border-radius: 5px;
+    box-shadow: 0 0 6px #F8BBD0;
+    display: inline-block;
+    padding: 10px 18px;
+    position: relative;
+    vertical-align: top;
+    color: #fff;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.nube::before{
+    background-color: #E75480;
+    content: "\00a0";
+    display: block;
+    height: 16px;
+    position: absolute;
+    top: 11px;
+    transform: rotate(29deg) skew(-35deg);
+            -moz-transform:     rotate(29deg) skew(-35deg);
+            -ms-transform:      rotate(29deg) skew(-35deg);
+            -o-transform:       rotate(29deg) skew(-35deg);
+            -webkit-transform:  rotate(29deg) skew(-35deg);
+    width: 20px;
+}
+
+.box{
+    float: right;
+    margin: 5px 45px 5px 20px;
+}
+
+.box::before{
+    box-shadow: -2px 2px 2px 0 rgba(248, 187, 208, .4);
+    left: -9px;
+}
