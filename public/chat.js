@@ -1,4 +1,4 @@
-var socket = io.connect('http://localhost:4000');
+var socket = io.connect('http://3.18.223.217:4000');
 
 var persona = document.getElementById('persona'),
     appChat = document.getElementById('app-chat'),
